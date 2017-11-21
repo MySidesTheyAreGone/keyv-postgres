@@ -1,6 +1,6 @@
 {
   "name": "keyv-postgres-shrink",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "PostgreSQL storage adapter for Keyv - supports cleanup/shrinking",
   "main": "src/index.js",
   "scripts": {
@@ -40,11 +40,11 @@
   "homepage": "https://github.com/MySidesTheyAreGone/keyv-postgres",
   "dependencies": {
     "keyv-sql-shrink": "^1.1.2",
-    "pg": "7.3.0"
+    "pg": "7.4.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "coveralls": "^2.13.1",
+    "ava": "^0.23.0",
+    "coveralls": "^3.0.0",
     "eslint-config-xo-lukechilds": "^1.0.0",
     "keyv": "*",
     "@keyv/test-suite": "*",
